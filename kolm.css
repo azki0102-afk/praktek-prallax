@@ -54,11 +54,43 @@ body {
   color: #000000;
   margin-right: 270px;
 }
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: blue;
+}
+
+.container {
+  margin: 100px 5%;
+  background-color: red;
+  justify-content: space-between;
+}
+.wrap-img {
+  width: 100%;
+}
+.wrap-img {
+  width: 100%;
+}
+.card-one {
+  width: 25%;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 12px;
+}
+.text-card button {
+  padding: 12px 20px;
+  background-color: #4c6fff;
+  border-radius: 12px;
+  color: #e2e2e2;
+  border: none;
+}
+.text-card {
+  padding: 12px;
+}
+.text-card {
+  margin: 12px 0;
+  color: grey;
 }
 @media (min-width: 391px) {
   .navigation {
