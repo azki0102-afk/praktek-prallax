@@ -34,13 +34,17 @@ body {
   position: absolute;
   font-size: 5em;
   z-index: 2;
-  color: purple;
+  color: orangered;
   text-transform: initial;
 }
 
-#about {
-  height: 300vh;
-  /* background-color: #003329; */
+.container-about {
+    margin: 0 5%;
+    padding: 100px 0;
+    /* background-color: red; */
+ 
+    display: flex;
+    justify-content: space-between;
 }
 #mine {
   position: absolute;
@@ -69,7 +73,7 @@ header {
 .wrap-img {
   width: 100%;
 }
-.wrap-img {
+.wrap-img img{
   width: 100%;
 }
 .card-one {
